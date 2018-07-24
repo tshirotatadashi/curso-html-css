@@ -12,10 +12,21 @@ main h1{
   text-align: center;
   background-color: #851944;
   color: #FFF;
+  padding: 25px;
 }
 
 p{
   text-align: justify;
+}
+
+div{
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
 }
 
 blockquote{
@@ -25,6 +36,7 @@ blockquote{
 aside{
   background-color: #3C1D3D;
   color: #F2FFFC;
+  text-align: center;
 }
 
 footer{
@@ -44,4 +56,5 @@ main a{
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
 }
