@@ -9,8 +9,13 @@ h1,h2{
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+h2{
+  font-size: 30px;
+}
+
 main h1{
   text-align: center;
+  font-size: 60px;
   background-color: #851944;
   color: #FFF;
   padding: 25px;
@@ -19,12 +24,14 @@ main h1{
 
 p{
   text-align: justify;
+  margin: 20px 0px;
 }
 
 blockquote{
   background-color: #D9E5E3;
   border: 10px solid #C2CCCA;
   width: 250px;
+  margin: 20px 40px;
   box-sizing: border-box;
 }
 
@@ -44,6 +51,7 @@ article footer{
   color: #000;
 }
 
+
 nav a{
   color: #F2FFFC
 }
@@ -57,6 +65,10 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
     text-decoration: none;
 }
+aside h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
 
 blockquote, aside, footer {
     padding: 20px;
@@ -66,4 +78,13 @@ main div{
   width: 720px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px 0;
+}
+
+strong{
+  font-weight: bold;
+}
+
+em{
+  font-style: italic;
 }
