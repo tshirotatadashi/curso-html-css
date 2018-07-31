@@ -13,7 +13,7 @@ h2{
   font-size: 30px;
 }
 
-main h1{
+.main-title{
   text-align: center;
   font-size: 60px;
   background-color: #851944;
@@ -27,7 +27,7 @@ p{
   margin: 20px 0px;
 }
 
-blockquote{
+.comment{
   background-color: #D9E5E3;
   border: 10px solid #C2CCCA;
   width: 250px;
@@ -35,22 +35,24 @@ blockquote{
   box-sizing: border-box;
 }
 
-aside{
+.navegacao-site{
   background-color: #3C1D3D;
   color: #F2FFFC;
+  padding: 20px;
   text-align: center;
 }
 
-footer{
+.rodape-pagina{
   background-color: #000;
   color: #F2FFFC;
+  padding: 20px;
 }
 
-article footer{
-  background-color: #F2FFFC;
-  color: #000;
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
-
 
 nav a{
   color: #F2FFFC
@@ -89,6 +91,6 @@ em{
   font-style: italic;
 }
 
-aside li{
+.redes-sociais li{
   display: inline-block;
 }
