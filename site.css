@@ -13,39 +13,9 @@ h2{
   font-size: 30px;
 }
 
-.main-title{
-  text-align: center;
-  font-size: 60px;
-  background-color: #851944;
-  color: #FFF;
-  padding: 25px;
-  border-bottom: 10px solid black;
-}
-
 p{
   text-align: justify;
   margin: 20px 0px;
-}
-
-.comment{
-  background-color: #D9E5E3;
-  border: 10px solid #C2CCCA;
-  width: 250px;
-  margin: 20px 40px;
-  box-sizing: border-box;
-}
-
-.navegacao-site{
-  background-color: #3C1D3D;
-  color: #F2FFFC;
-  padding: 20px;
-  text-align: center;
-}
-
-.rodape-pagina{
-  background-color: #000;
-  color: #F2FFFC;
-  padding: 20px;
 }
 
 article {
@@ -67,6 +37,7 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
     text-decoration: none;
 }
+
 aside h1{
   font-size: 30px;
   margin-bottom: 25px;
@@ -91,6 +62,44 @@ em{
   font-style: italic;
 }
 
+.main-title{
+  text-align: center;
+  font-size: 60px;
+  background-color: #851944;
+  color: #FFF;
+  padding: 25px;
+  border-bottom: 10px solid black;
+}
+
+.comment{
+  background-color: #D9E5E3;
+  border: 10px solid #C2CCCA;
+  width: 250px;
+  margin: 20px 40px;
+  box-sizing: border-box;
+}
+
+.navegacao-site{
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  padding: 20px;
+  text-align: center;
+}
+
+.rodape-pagina{
+  background-color: #000;
+  color: #F2FFFC;
+  padding: 20px;
+}
+
 .redes-sociais li{
   display: inline-block;
+}
+
+.read-more{
+  font-size: 120%;
+  padding: 8px;
+  margin: 16px;
+  display: block;
+  background-color: #E6E7E8;
 }
