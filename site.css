@@ -1,3 +1,8 @@
+main{
+  float: left;
+  width: 85%;
+}
+
 body{
   font-family: "Crimson Text", serif;
   background-color: #F2FFFC;
@@ -16,6 +21,7 @@ h2{
 p{
   text-align: justify;
   margin: 20px 0px;
+  clear: both;
 }
 
 article {
@@ -30,6 +36,10 @@ nav a{
 
 main a{
     color: #851944;
+}
+
+aside{
+  float: right;
 }
 
 aside a {
@@ -61,6 +71,15 @@ strong{
 
 em{
   font-style: italic;
+}
+
+cite{
+  font-style: italic;
+  float: right;
+}
+
+footer{
+  clear: both;
 }
 
 .main-title{
@@ -123,4 +142,21 @@ em{
 
 .linkedin{
     background-image: url(linkedin.png);
+}
+
+.profile, .navegacao-site{
+  float: right;
+  width: 15%;
+  box-sizing: border-box;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+#fiat{
+  float: right;
+  display: inline;
+}
+
+#pretrobras{
+  float: left;
 }
