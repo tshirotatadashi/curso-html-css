@@ -1,0 +1,30 @@
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+em{
+  font-style: italic;
+}
+
+cite{
+  font-style: italic;
+  float: right;
+}
+
+.comment{
+  background-color: #D9E5E3;
+  border: 10px solid #C2CCCA;
+  width: 250px;
+  margin: 20px 40px;
+  box-sizing: border-box;
+}
+
+#fiat{
+  float: right;
+}
+
+#petrobras{
+  float: left;
+}
