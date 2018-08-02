@@ -1,5 +1,6 @@
 main{
   float: left;
+  padding-bottom: 80px;
   width: 85%;
 }
 
@@ -16,12 +17,12 @@ h1,h2{
 
 h2{
   font-size: 30px;
+  clear: both;
 }
 
 p{
   text-align: justify;
   margin: 20px 0px;
-  clear: both;
 }
 
 article {
@@ -80,6 +81,9 @@ cite{
 
 footer{
   clear: both;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .main-title{
@@ -146,17 +150,27 @@ footer{
 
 .profile, .navegacao-site{
   float: right;
-  width: 15%;
   box-sizing: border-box;
   border-left: 10px solid black;
   border-bottom: 10px solid black;
 }
 
-#fiat{
-  float: right;
-  display: inline;
+.navegacao-site{
+  width: 15%;
+  position: relative;
+  top: 310px;
 }
 
-#pretrobras{
+.profile{
+  position: absolute;
+  top: 0;
+  right: 0
+}
+
+#fiat{
+  float: right;
+}
+
+#petrobras{
   float: left;
 }
