@@ -1,0 +1,30 @@
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc; /*Espessura da borda, tipo e cor*/
+    margin-bottom: 20px;
+}
+
+em{
+  font-style: italic;
+}
+
+cite{
+  font-style: italic;
+  float: right;
+}
+
+.comment{
+  background-color: #D9E5E3; /*Cor de fundo*/
+  border: 10px solid #C2CCCA; /*Espessura da borda, tipo e cor*/
+  width: 250px; /*Define a lagura do elemento*/
+  margin: 20px 40px; /*Margem altura e lagura*/
+  box-sizing: border-box; /*Fala para contar o tamanho do elemento com a barda*/
+}
+
+#fiat{
+  float: right; /*Flutuar a direita*/
+}
+
+#petrobras{
+  float: left; /*Flutuar a esquerda*/
+}
