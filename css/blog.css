@@ -1,13 +1,13 @@
 .artigo{
-  padding-bottom: 30px;
+  padding-bottom: 1.5em;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
 .read-more{
-  font-size: 120%;
-  padding: 8px;
-  margin: 16px;
+  font-size: 1.5em;
+  padding: .5em;
+  margin: 1em;
   text-align: center;
   display: block; /*Somente esse elemento na linha "Empilhado"*/
   background-color: #E6E7E8;

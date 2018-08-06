@@ -1,6 +1,6 @@
 main{
   float: left; /*Joga a Main para a esquerda*/
-  padding-bottom: 80px; /*Define um espaçamento embaixo dentro do elemento*/
+  padding-bottom: 4em; /*Define um espaçamento embaixo dentro do elemento*/
   width: 85%; /*Define o tamaho da Página a 85%*/
 }
 
@@ -16,13 +16,13 @@ h1,h2{
 }
 
 h2{
-  font-size: 30px;/*Tamanho da fonte*/
+  font-size: 1.5em;/*Tamanho da fonte*/
   clear: both; /*Nenhum float a direita ou a esquerda*/
 }
 
 p{
   text-align: justify;
-  margin: 20px 0px;
+  margin: 1em 0px;
 }
 
 main a{
@@ -31,18 +31,6 @@ main a{
 
 aside{
   float: right;
-}
-
-aside a {
-    color: inherit; /*Faz com que a propriedade assuma o valor que foi definido em seu pai (ou ancestral, de um modo geral)*/
-    font-family: "Open Sans Condensed", sans-serif;
-    text-decoration: none; /*Tira o Sublinhado do link*/
-    text-transform: lowercase; /*Deixa todos Minúsculos*/
-}
-
-aside h1{
-  font-size: 30px;
-  margin-bottom: 25px;
 }
 
 blockquote, aside, footer {
@@ -60,34 +48,30 @@ strong{
   font-weight: bold; /*Deixa negrito*/
 }
 
-footer{
-  clear: both;
-  position: fixed; /*Define o elemento como fixo*/
-  bottom: 0; /*0 de espaçamento */
-  width: 100%; /*na página toda*/
-}
-
 .main-title{
   text-align: center;
-  font-size: 60px;
+  font-size: 3em;
   background-color: #851944;
   color: #FFF;
-  padding: 25px;
-  border-bottom: 10px solid black;
+  padding: 1em;
+  border-bottom: .5rem solid black;
   text-transform: uppercase; /*Deixa todos os caracters Maiúsculo*/
 }
 
-.navegacao-site{
-  background-color: #3C1D3D;
-  color: #F2FFFC;
-  padding: 20px;
-  text-align: center;
+.subtitulo-texto{
+  font-size: 1.5em;
+  clear: both;
 }
 
 .rodape-pagina{
   background-color: #000;
   color: #F2FFFC;
-  padding: 20px;
+  padding: 1em;
+  clear: both;
+  position: fixed; /*Define o elemento como fixo*/
+  bottom: 0; /*0 de espaçamento */
+  width: 100%; /*na página toda*/
+  box-sizing: border-box;
 }
 
 .redes-sociais li{
@@ -113,17 +97,43 @@ footer{
     background-image: url(../img/linkedin.png);
 }
 
-.profile, .navegacao-site{
-  float: right;
-  box-sizing: border-box;
-  border-left: 10px solid black;
-  border-bottom: 10px solid black;
+.navegacao-site{
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  padding: 1em;
+  text-align: center;
 }
 
 .navegacao-site{
   width: 15%;
   position: relative; /*Defino como posição Relativa*/
-  top: 310px; /*A 310px do topo*/
+  top: 16em; /*A 310px do topo*/
+}
+
+.navegacao-site h1{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.navegacao-site a {
+    color: inherit; /*Faz com que a propriedade assuma o valor que foi definido em seu pai (ou ancestral, de um modo geral)*/
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none; /*Tira o Sublinhado do link*/
+    text-transform: lowercase; /*Deixa todos Minúsculos*/
+}
+
+.container {
+  width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em 0;
+}
+
+.profile, .navegacao-site{
+  float: right;
+  box-sizing: border-box;
+  border-left: .5rem solid black;
+  border-bottom: .5rem solid black;
 }
 
 .profile{
