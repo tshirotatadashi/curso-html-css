@@ -1,32 +1,28 @@
 main{
-  float: left;
-  padding-bottom: 80px;
-  width: 85%;
+  float: left; /*Joga a Main para a esquerda*/
+  padding-bottom: 80px; /*Define um espaçamento embaixo dentro do elemento*/
+  width: 85%; /*Define o tamaho da Página a 85%*/
 }
 
 body{
-  font-family: "Crimson Text", serif;
-  background-color: #F2FFFC;
-  font-size: 120%;
-  line-height: 30px;
+  font-family: "Crimson Text", serif; /*Define a fonte e definindo uma fonte serifada*/
+  background-color: #F2FFFC; /*Cor de fundo*/
+  font-size: 120%; /*Tamanho da fonte*/
+  line-height: 30px; /*Espaçamento entre as linhas*/
 }
 
 h1,h2{
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif; /*Define a fonte e definindo uma fonte sem serifa*/
 }
 
 h2{
-  font-size: 30px;
-  clear: both;
+  font-size: 30px;/*Tamanho da fonte*/
+  clear: both; /*Nenhum float a direita ou a esquerda*/
 }
 
 p{
   text-align: justify;
   margin: 20px 0px;
-}
-
-nav a{
-  color: #F2FFFC
 }
 
 main a{
@@ -38,10 +34,10 @@ aside{
 }
 
 aside a {
-    color: inherit;
+    color: inherit; /*Faz com que a propriedade assuma o valor que foi definido em seu pai (ou ancestral, de um modo geral)*/
     font-family: "Open Sans Condensed", sans-serif;
-    text-decoration: none;
-    text-transform: lowercase;
+    text-decoration: none; /*Tira o Sublinhado do link*/
+    text-transform: lowercase; /*Deixa todos Minúsculos*/
 }
 
 aside h1{
@@ -61,14 +57,14 @@ main div{
 }
 
 strong{
-  font-weight: bold;
+  font-weight: bold; /*Deixa negrito*/
 }
 
 footer{
   clear: both;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  position: fixed; /*Define o elemento como fixo*/
+  bottom: 0; /*0 de espaçamento */
+  width: 100%; /*na página toda*/
 }
 
 .main-title{
@@ -78,7 +74,7 @@ footer{
   color: #FFF;
   padding: 25px;
   border-bottom: 10px solid black;
-  text-transform: uppercase;
+  text-transform: uppercase; /*Deixa todos os caracters Maiúsculo*/
 }
 
 .navegacao-site{
@@ -95,14 +91,14 @@ footer{
 }
 
 .redes-sociais li{
-  display: inline-block;
+  display: inline-block; /*Perminte definir o tamanho so elemento sem quebrar a linha*/
 }
 
 .redes-sociais a{
   width: 40px;
   height: 40px;
-  display: inline-block;
-  text-indent: -9999px;
+  display: inline-block; /*Perminte definir o tamanho so elemento sem quebrar a linha*/
+  text-indent: -9999px; /*Tirando o texto da tela deixando somente as imagens "Tecnica Image Replacement"*/
 }
 
 .github{
@@ -126,12 +122,12 @@ footer{
 
 .navegacao-site{
   width: 15%;
-  position: relative;
-  top: 310px;
+  position: relative; /*Defino como posição Relativa*/
+  top: 310px; /*A 310px do topo*/
 }
 
 .profile{
-  position: absolute;
-  top: 0;
-  right: 0
+  position: absolute; /*Define como posição absoluta*/
+  top: 0; /*A 0px de cima*/
+  right: 0 /*A 0px da direita*/
 }

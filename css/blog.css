@@ -8,6 +8,7 @@
   font-size: 120%;
   padding: 8px;
   margin: 16px;
-  display: block;
+  text-align: center;
+  display: block; /*Somente esse elemento na linha "Empilhado"*/
   background-color: #E6E7E8;
 }
