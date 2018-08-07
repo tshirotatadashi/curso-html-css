@@ -8,19 +8,14 @@ body{
   font-family: "Crimson Text", serif; /*Define a fonte e definindo uma fonte serifada*/
   background-color: #F2FFFC; /*Cor de fundo*/
   font-size: 120%; /*Tamanho da fonte*/
-  line-height: 30px; /*Espaçamento entre as linhas*/
+  line-height: 1.5; /*Espaçamento entre as linhas*/
 }
 
-h1,h2{
+h1, h2, .subtitulo-principal{
   font-family: "Open Sans Condensed", sans-serif; /*Define a fonte e definindo uma fonte sem serifa*/
 }
 
-h2{
-  font-size: 1.5em;/*Tamanho da fonte*/
-  clear: both; /*Nenhum float a direita ou a esquerda*/
-}
-
-p{
+main p{
   text-align: justify;
   margin: 1em 0px;
 }
@@ -48,19 +43,27 @@ strong{
   font-weight: bold; /*Deixa negrito*/
 }
 
+em{
+  font-style: italic; /*Deixa Intálico*/
+}
+
 .main-title{
   text-align: center;
   font-size: 3em;
   background-color: #851944;
   color: #FFF;
-  padding: 1em;
+  padding: 2rem;
   border-bottom: .5rem solid black;
   text-transform: uppercase; /*Deixa todos os caracters Maiúsculo*/
 }
 
+.subtitulo-principal{
+  font-size: 1rem;
+}
+
 .subtitulo-texto{
-  font-size: 1.5em;
-  clear: both;
+  font-size: 1.5em;/*Tamanho da fonte*/
+  clear: both; /*Nenhum float a direita ou a esquerda*/
 }
 
 .rodape-pagina{
@@ -107,7 +110,7 @@ strong{
 .navegacao-site{
   width: 15%;
   position: relative; /*Defino como posição Relativa*/
-  top: 16em; /*A 310px do topo*/
+  top: 300px; /*A 300px do topo*/
 }
 
 .navegacao-site h1{
@@ -139,5 +142,6 @@ strong{
 .profile{
   position: absolute; /*Define como posição absoluta*/
   top: 0; /*A 0px de cima*/
-  right: 0 /*A 0px da direita*/
+  right: 0; /*A 0px da direita*/
+  height: 300px;
 }
