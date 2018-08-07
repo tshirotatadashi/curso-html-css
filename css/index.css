@@ -1,6 +1,7 @@
 .foto-home{
   height: 200px;
   margin-top: 5%;
+  border-radius: 50% 50%;
 }
 
 .saudacao p{
