@@ -29,6 +29,22 @@
 .saudacao em{
   font-size: 4em;
   color: #851944;
+  transform: rotate(-5deg) skew(-10deg);
+  display: inline-block;
+}
+
+.main-title a{
+  font-family: "Open Sans Condensed", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .5em 3em;
+  background-color: #3C1D3D;
+  color: #FFF;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 0.5rem solid #000;
+  transform: rotate(25deg) translateX(1);
 }
 
 .botao-index{
@@ -157,11 +173,15 @@ main {
 .html5{
   top: 5%;
   left: 23%;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 .css3{
   top: 5%;
   right: 23%;
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
 .codigo-limpo{
