@@ -32,13 +32,6 @@ blockquote, aside, footer {
     padding: 20px;
 }
 
-main div{
-  width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px 0;
-}
-
 strong{
   font-weight: bold; /*Deixa negrito*/
 }

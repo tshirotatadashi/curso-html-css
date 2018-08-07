@@ -1,5 +1,6 @@
 .foto-home{
   height: 200px;
+  margin-top: 5%;
 }
 
 .saudacao p{
@@ -81,6 +82,7 @@
   background-color: #999;
   color: #FFF;
   border-bottom: .5em solid #851944;
+  position: relative;
 }
 
 .blog small{
@@ -92,6 +94,30 @@
   color: #FCF;
   padding: .5em;
   display: block;
+}
+
+.blog .inicio-post{
+  position: absolute;
+  top: 4em;
+  left: 30%;
+  right: 4em;
+  background-color: #F2FFFC;
+  color: #000;
+  height: 8em;
+  padding: 1.5em;
+}
+
+.blog .mais-recente{
+  background-color: #F2FFFC;
+  color: black;
+}
+
+.blog .mais-recente a{
+  color: #F26;
+}
+
+.blog li{
+  width: 30%
 }
 
 footer {
@@ -112,4 +138,67 @@ main {
   width: 100%;
   padding-bottom: 0;
   float: none;
+}
+
+.palavra-home{
+  position: absolute;
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: .5em;
+  font-weight: bold;
+  color: #D5447E;
+}
+
+.javascript{
+  top: 1%;
+  left: 45%;
+}
+
+.html5{
+  top: 5%;
+  left: 23%;
+}
+
+.css3{
+  top: 5%;
+  right: 23%;
+}
+
+.codigo-limpo{
+  top: 12%;
+  left: 12%;
+}
+
+.responsivo{
+  top: 12%;
+  right: 15%;
+}
+
+.acessibilidade{
+  top: 19%;
+  left: 6%;
+}
+
+.agilidade{
+  top: 19%;
+  right: 6%;
+}
+
+.otimizacoes{
+  top: 26%;
+  left: 15%;
+}
+
+.boas-praticas{
+  top: 26%;
+  right: 15%;
+}
+
+.eficiencia{
+  top: 33%;
+  left: 23%;
+}
+
+.design{
+  top: 33%;
+  right: 23%;
 }
