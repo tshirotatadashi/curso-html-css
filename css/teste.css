@@ -1,0 +1,33 @@
+body{
+  background-color: #47B;
+}
+
+.borda{
+  width: 200px;
+  height: 100px;
+  margin: 50px;
+  background-color: #FFF;
+
+  box-shadow: 0 0 0 2px black,
+              0 0 0 4px #47B,
+              0 0 0 6px black,
+              0 0 0 8px #47B,
+              0 0 0 10px black;
+}
+
+.dialog{
+  width: 40%;
+  background-color: #FFF;
+
+  position: fixed; /*Fixar a Tela no meio*/
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%); /*Voltar um pouco para a caixa ficar exatamente no centro*/
+  z-index: 9999; /*garantir que a caixa vai aparecer acima de todos os outros elementos da página*/
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75); /*Criando uma borda gigante e a cor om transparencia*/
+
+  padding: 10% 3%;
+  text-align: center;
+  font-size: 2em;
+}

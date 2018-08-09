@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-  perspective: 6px;
+  perspective: 6px; /*Definindo a perspectiva no body para fazer o efeito de paralaxe (objetos mais próximos têm velocidade aparente maior)*/
   perspective-origin: 50% 160px;
 }
 
@@ -50,7 +50,7 @@ body{
   background-color: #3C1D3D;
   color: #FFF;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; /*Tira o Sublinhado do Link*/
   border: 0.25rem solid #000;
 
   width: 14em;
@@ -185,9 +185,9 @@ header{
   position: relative;
 }
 
-.palavras-home{
-  transform-style: preserve-3d;
-  position: absolute;
+.palavras-home, .titulo-principal{
+  transform-style: preserve-3d; /*Deixar as transformações 3D funcionando nas palavras*/
+  position: absolute; /*Fazendo que o Elemento ocupe o Cabeçalho inteiro*/
   top: 0;
   left: 0;
   bottom: 0;
@@ -197,22 +197,26 @@ header{
 .palavra-home{
   font-family: "Shadows Into Light", sans-serif;
   font-weight: bold;
-  color: #D5447E;
+  color: rgba(213, 68, 126, 0.5); /*Definindo como semitransparente*/
   position: absolute;
-}
-
-.palavras-home li{
-  font-size: 200%;
 }
 
 .titulo-principal{
   transform-style: preserve-3d;
   position: absolute;
 }
+
+.palavras-home li{
+  font-size: 200%; /*Aumentando o tamanho da fonte fora da transformação.*/
+  /*Assim, na transformação, podemos diminuir a palavra e depois aumentá-la o quanto necessário.*/
+}
+
 .javascript{
   top: -15%;
   left: 29%;
-  transform: translateZ(-0.5px) scale(0.25);
+  transform: translateZ(-0.5px)
+             scale(0.25); /*Diminuino o tamanho da Fonte*/
+  opacity: .5;
 }
 
 .html5{
@@ -220,6 +224,7 @@ header{
   left: 20%;
   -webkit-transform: rotate(-10deg); /*Rotacionando em modo Beta*/
   transform: rotate(-10deg) scale(0.25); /*Rotacionando para ser um Future Proof, para quando as funcionalidades não mais estiverem em BETA*/
+  opacity: .6;
 }
 
 .css3{
@@ -227,42 +232,49 @@ header{
   right: 20%;
   -webkit-transform: rotate(10deg); /*Rotacionando em modo Beta*/
   transform: rotate(10deg) scale(0.25); /*Rotacionando para ser um Future Proof, para quando as funcionalidades não mais estiverem em BETA*/
+  opacity: .6;
 }
 
 .codigo-limpo{
   top:12%;
   left: 0%;
   transform: rotate(-8deg) translateZ(0.5px) scale(0.25);
+  opacity: 0.7;
 }
 
 .responsivo{
   top: 12%;
   right: 0%;
   transform: rotate(8deg) translateZ(0.5px) scale(0.25);
+  opacity: 0.7;
 }
 
 .acessibilidade{
   top: 28%;
   left: -10%;
   transform: rotate(3deg) translateZ(1px) scale(0.25);
+  opacity: 0.8;
 }
 
 .boas-praticas{
   top: 28%;
   right: -10%;
   transform: rotate(-3deg) translateZ(1px) scale(0.25);
+  opacity: 0.8;
 }
 
 .otimizacoes{
   top: 43%;
   left: 5%;
   transform: rotate(5deg) translateZ(1.5px) scale(0.25);
+  opacity: 0.9;
 }
 
 .agilidade{
   top: 43%;
   right: 9%;
   transform: rotate(-5deg) translateZ(1.5px) scale(0.25);
+  opacity: 0.9;
 }
 
 .eficiencia{

@@ -12,4 +12,6 @@
 
 .portfolio img{
   width: 100%;
+  box-shadow: 0 0 4px 1px #000; /*Coloca uma Sombra nas bordas*/
+  /*Delocamneto para a direita, Deloc. esquesta. Desfoque e Tamanho*/
 }
