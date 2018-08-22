@@ -1,11 +1,11 @@
-.artigo{
-  padding-bottom: 1.5em;
-  margin-bottom: 1em;
+.artigo + .artigo{
+  padding-top: 1.5em;
+  margin-top: 1em;
   /* border-bottom: 1px solid #ccc;// definindo uma linha usando uma borda inferior */
   background-image: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 1), rgba(200, 200, 200, 0)); /* Definindo um gradienten para a direita */
   background-size: 100% 1px; /* definindo para ele ocupar o elemento 100% na lagura e 1px de altura */
   background-repeat: no-repeat; /*Definindo para não se repetir*/
-  background-position: bottom center; /*Definindo para deixar a linha embaixo*/
+  background-position: top center; /*Definindo para deixar a linha embaixo*/
 }
 
 .read-more{
