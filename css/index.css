@@ -96,6 +96,29 @@ body{
   border-bottom: .5em solid #000;
 }
 
+.fundo{/*Fundo Listrado Trabalhos*/
+  background-image: linear-gradient(135deg, /*angulo das linhas*/
+                                    transparent, /*Começo do gradiente transparente*/
+                                    transparent 14px, /*Fica transparente até 14px*/
+                                    rgba(0, 0, 0, 0.1) 14px, /*Fica preto a partir de 14px*/
+                                    rgba(0, 0, 0, 0.1) 15px, /*Fia preto até 15px*/
+                                    transparent 15px, /*Fica transparente a partir de 15px*/
+                                    transparent); /*Fica transparente até o final*/
+  background-size: 20px 20px;
+  background-attachment: fixed;
+}
+.fundo2{/*Fundo Listrado Blog*/
+  background-image: linear-gradient(45deg,
+                                    transparent,
+                                    transparent 14px,
+                                    rgba(0, 0, 0, 0.1) 14px,
+                                    rgba(0, 0, 0, 0.1) 15px,
+                                    transparent 15px,
+                                    transparent);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+}
+
 .trabalhos h2{
   color: #FFF;
 }
