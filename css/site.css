@@ -7,6 +7,14 @@ html{
   width: 85%; /*Define o tamaho da Página a 85%*/
 }
 
+a:hover, a:focus{
+  color: red;
+}
+
+nav a:hover, nav a:focus{
+  text-shadow: 0 0 3px pink; /*Deixa com Sombra*/
+}
+
 body{
   font-family: "Crimson Text", serif; /*Define a fonte e definindo uma fonte serifada*/
   background-color: #F2FFFC; /*Cor de fundo*/

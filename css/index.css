@@ -167,21 +167,24 @@ body{
   right: 4em;
   background-color: #F2FFFC;
   color: #000;
-  height: 8em;
+  height: 8.8em;
   padding: 1.5em;
-}
-
-.blog .mais-recente{
-  background-color: #F2FFFC;
-  color: black;
-}
-
-.blog .mais-recente a{
-  color: #F26;
+  display: none; /*Deixando o Elemento invisível*/
 }
 
 .blog li{
   width: 30%
+}
+
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block; /*Quando o elemento ficaem foco ele aparece*/
+}
+
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
 }
 
 footer {

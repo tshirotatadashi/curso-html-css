@@ -16,10 +16,31 @@ cite{
   box-sizing: border-box; /*Fala para contar o tamanho do elemento com a barda*/
 }
 
-#fiat{
+/*solução com id*/
+/* #fiat{
+  float: right; /*Flutuar a direita*/
+/* } */
+
+/* #petrobras{
+  float: left; /*Flutuar a esquerda*/
+/* }  */
+
+
+/*Solução com pseudoclasses*/
+.comment:nth-of-type(odd){
   float: right; /*Flutuar a direita*/
 }
 
-#petrobras{
+.comment:nth-of-type(even){
   float: left; /*Flutuar a esquerda*/
+}
+
+.comment:nth-of-type(odd):hover, .comment:nth-of-type(odd):focus{
+  transform: scale(1.2) rotate(10deg);
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0,.8);
+}
+
+.comment:nth-of-type(even):hover, .comment:nth-of-type(even):focus{
+  transform: rotate(-10deg) scale(1.2);
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0,.8);
 }
