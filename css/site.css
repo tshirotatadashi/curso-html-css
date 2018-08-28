@@ -103,10 +103,34 @@ h1{
 }
 
 .redes-sociais a{
+  position: relative;
   width: 40px;
   height: 40px;
   display: inline-block; /*Perminte definir o tamanho so elemento sem quebrar a linha*/
   text-indent: -9999px; /*Tirando o texto da tela deixando somente as imagens "Tecnica Image Replacement"*/
+}
+
+.redes-sociais a:hover::after, .redes-sociais a:focus::after{
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  text-indent: 0;
+  width: 300%;
+  background-color: #000;
+  font-size: .75em;
+  text-shadow: 0 0 3px pink; /*Deixa com Sombra*/
+}
+
+.redes-sociais a:hover::before, .redes-sociais a:focus::before{
+  content: ''; /*Queremos que ele seja uma caixinha preta*/
+  width: 1em; /*Então adicionamos tamanho e definimos a cor de fundo*/
+  height: 1em;
+  background-color: black;
+  position: absolute;
+  bottom: 0; /*usando o link como referência, dizemos que queremos ela grudada no canto inferior do link*/
+  left: 0;
+  transform: translateY(.5em) rotate(45deg);/*rotacionar e transladar a caixa que criamos para que ela encaixe como uma ponta na legenda*/
 }
 
 .github{

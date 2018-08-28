@@ -7,6 +7,15 @@ cite{
   float: right;
 }
 
+.container > p::first-letter{
+  font-size: 200%;
+  font-weight: bold;
+  color: #3C1D3D;
+  text-shadow: 1px 1px #000;
+  margin-right: .2ch;
+  line-height: 1;
+}
+
 .comment{
   background-color: #D9E5E3; /*Cor de fundo*/
   border: .5em solid #C2CCCA; /*Espessura da borda, tipo e cor*/
@@ -14,6 +23,18 @@ cite{
   padding: 1em; /*Define a paginação a partir no tamanho do pai*/
   margin: 1em 2em; /*Margem altura e lagura*/
   box-sizing: border-box; /*Fala para contar o tamanho do elemento com a barda*/
+}
+
+.comment::before{
+  content: '"';
+  color: #bbb;
+  font-size: 10em;
+  position: absolute;
+  line-height: .8;
+}
+
+.comment > p {
+  position: relative;
 }
 
 /*solução com id*/
