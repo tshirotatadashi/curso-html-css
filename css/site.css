@@ -1,7 +1,8 @@
 html{
   overflow-x: hidden; /*Navegador ignora o que fica para fora da página*/
 
-}main{
+}
+main{
   float: left; /*Joga a Main para a esquerda*/
   padding-bottom: 4em; /*Define um espaçamento embaixo dentro do elemento*/
   width: 85%; /*Define o tamaho da Página a 85%*/
@@ -77,13 +78,13 @@ h1{
 .rodape-pagina{
   color: #F2FFFC;
   clear: both;
+  position: fixed; /*Define o elemento como fixo*/
+  bottom: 0; /*0 de espaçamento */
+  width: 100%; /*na página toda*/
+  box-sizing: border-box;
   /*Rodpé antigo*/
   /* background-color: rgba(0, 0, 0, 0.8);
-  padding: 1em;
-  position: fixed; /*Define o elemento como fixo*/
-  /* bottom: 0; /*0 de espaçamento */
-  /* width: 100%; /*na página toda*/
-  /* box-sizing: border-box;*/
+  padding: 1em;*/
 
   background-image: radial-gradient(ellipse at left bottom,
                               rgba(60, 29, 61, 0.8),
