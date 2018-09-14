@@ -77,3 +77,38 @@ input[value="other"] ~ input {
 input[value="other"]:checked ~ input {
     display: inline;
 }
+
+
+.com-icone::after {
+    content: '';
+    width: 2em;
+    height: 2em;
+    background-color: #8C1D3D;
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.com-icone {
+    position: relative;
+}
+
+.com-icone::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.com-icone + input {
+    position: relative;
+    left: 2em;
+    width: calc(100% - 2em);
+}
+
+.com-icone[for="name"]::after {
+    background-image: url(../img/usuario.png);
+}
+
+.com-icone[for="e-mail"]::after {
+    background-image: url(../img/email.png);
+}

@@ -53,7 +53,7 @@ body{
   text-decoration: none; /*Tira o Sublinhado do Link*/
   border: 0.25rem solid #000;
 
-  width: 14em;
+  width: 17em;
   line-height: 1;
   padding: 1em 0;
   box-sizing: border-box;
@@ -62,10 +62,13 @@ body{
   top: 0;
   right: 0;
   transform-origin: 0 0; /*Foco no canto superior esquerdo do link*/
-  transform: translate(6.5754em,/*cos(45) * (altura - largura) + largura*/
-                      -2.4749em/*-1 * sen(45) * altura*/)
+  transform: translate(calc(.707 * (3.7em - 100%) + 100%),
+             calc(-.707 * 3.7em))
              rotate(45deg);
+
 }
+/*Eixo X: 0.707 * (altura - largura) + largura
+Eixo Y: -0.707 * altura*/
 
 .botao-index{
   font-size: 1.25em;

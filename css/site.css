@@ -5,7 +5,7 @@ html{
 main{
   float: left; /*Joga a Main para a esquerda*/
   padding-bottom: 4em; /*Define um espaçamento embaixo dentro do elemento*/
-  width: 85%; /*Define o tamaho da Página a 85%*/
+  width: calc(100% - (300px * 0.7)); /*Define o tamaho da Página a 85%*/
 }
 
 a:hover, a:focus{
@@ -154,7 +154,7 @@ h1{
 }
 
 .navegacao-site{
-  width: 15%;
+  width: calc(300px * 0.7);
   position: relative; /*Defino como posição Relativa*/
   top: 300px; /*A 300px do topo*/
 }
