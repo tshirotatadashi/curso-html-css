@@ -65,3 +65,41 @@ cite{
   transform: rotate(-10deg) scale(1.2);
   box-shadow: 0 0 0 99999px rgba(0, 0, 0,.8);
 }
+
+
+.habilidades{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0.25em;
+}
+
+thead th{
+  background-color: #3C1D3D;
+  color: #FFF;
+  font-weight: bold;
+  padding: .5em;
+}
+
+tbody th{
+  background-color: #851944;
+  color: #FFF;
+  font-weight: bold;
+  padding: .5em;
+}
+
+tbody td{
+  text-align: left;
+  background-color: #EEE;
+  padding: .5em;
+}
+
+.habilidades [colspan] {
+  text-align: center;
+  font-style: italic;
+}
+
+.habilidades [rowspan] {
+  vertical-align: middle;
+}
