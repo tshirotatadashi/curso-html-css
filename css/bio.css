@@ -23,6 +23,12 @@ cite{
   padding: 1em; /*Define a paginação a partir no tamanho do pai*/
   margin: 1em 2em; /*Margem altura e lagura*/
   box-sizing: border-box; /*Fala para contar o tamanho do elemento com a barda*/
+  transition: box-shadow 1s, transform 1s;
+  transition-delay: 1s, 0s;
+}
+
+.comment:hover, .comment:focus{
+  transition-delay: 0s, 1s;
 }
 
 .comment::before{
