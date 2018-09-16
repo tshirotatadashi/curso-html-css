@@ -1,7 +1,12 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .portfolio li{
+  flex: 1 1 45%;
   background-color: #FAFFFC;
   border: .5em solid #000;
-  display: inline-block;
   box-sizing: border-box;
   width: 45%;
   padding: 1em;
@@ -14,4 +19,8 @@
   width: 100%;
   box-shadow: 0 0 4px 1px #000; /*Coloca uma Sombra nas bordas*/
   /*Delocamneto para a direita, Deloc. esquesta. Desfoque e Tamanho*/
+}
+
+.portfolio li:first-child {
+  flex-basis: 100%;;
 }

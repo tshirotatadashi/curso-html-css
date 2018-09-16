@@ -6,6 +6,7 @@ html, body{
 body{
   perspective: 6px; /*Definindo a perspectiva no body para fazer o efeito de paralaxe (objetos mais próximos têm velocidade aparente maior)*/
   perspective-origin: 50% 160px;
+  display: block;
 }
 
 .foto-home{
@@ -155,18 +156,30 @@ Eixo Y: -0.707 * altura*/
 }
 
 .trabalhos ul{
-  overflow: hidden;
-  border: .5em solid black;
+  display: flex;
 }
 
 .trabalhos li {
-  float: left;
-  width: 33.333%;
+  flex: 1;
+  border: .5em solid #000;
 }
 
 .trabalhos img{
   width: 100%;
   display: block;
+}
+
+.trabalhos li:first-child {
+  order: 2;
+  transform: scale(1.2);
+}
+
+.trabalhos li:nth-child(2) {
+  order: 1;
+}
+
+.trabalhos li:last-child {
+  order: 3;
 }
 
 .blog{
